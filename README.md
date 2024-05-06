@@ -6,6 +6,8 @@ I have (clearly) been quite interested in AI for a little while now. This projec
 
 This will only be backend code for right now, but I may at some point add a simple frontend to query the store and a vector database to hold the indexes.
 
+UPDATE: This project now successfully runs locally with Llama2 or Llama3. If you wish to try, you must install [llama2](https://ollama.com/library/llama2) or [llama3](https://ollama.com/library/llama3) and update index.ts accordingly.
+
 ## Setup
 
 To install dependencies:
@@ -14,10 +16,10 @@ To install dependencies:
 bun install
 ```
 
+Navigate [here](https://github.com/meta-llama/llama3?tab=readme-ov-file#download) to download llama3.
+
 To run:
 
 ```bash
 bun run index.ts
 ```
-
-This project was created using `bun init` in bun v1.1.3. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
