@@ -12,7 +12,7 @@ async function main() {
     const customEmbedding = new OllamaEmbedding({
         model: "nomic-embed-text",
     });
-    const customLlm = new Ollama({ model: "llama2" });
+    const customLlm = new Ollama({ model: "llama3" });
 
     Settings.llm = customLlm;
     Settings.embedModel = customEmbedding;
